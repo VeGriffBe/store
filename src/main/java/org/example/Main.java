@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 public class Main {
 
     public static void main(String[] args) {
-
+        //dasdasdas
         String url = "jdbc:sqlite:database.db";
             try(Connection connection = DriverManager.getConnection(url)) {
                 Entrance_Logic entranceLogic = new Entrance_Logic(connection);
